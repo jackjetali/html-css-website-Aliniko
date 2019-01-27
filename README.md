@@ -4,7 +4,13 @@
 <html>
   <head>
   </head>
-  
 <body>
+  <header>
+    <ul>
+      <li> Home </li>
+      <li> About Me</li>
+      <li> Contact Us</li>
+    </ul>
+  </header>
 </body>
 </html>
