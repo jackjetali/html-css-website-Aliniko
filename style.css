@@ -128,8 +128,16 @@ li a:hover{
   background-color:#111;
   color:#fff;
   padding:20px;
+  border-radius: 10px;
 }
-
+.ptext .border:hover {
+ background-color: #666;
+}
+h2{
+ padding-bottom: 20px;
+ line-weight: 25px;
+ font-size: 30px;
+}
 .ptext .border.trans{
   background-color:transparent;
 }
