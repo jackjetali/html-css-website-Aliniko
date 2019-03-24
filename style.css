@@ -141,9 +141,54 @@ h2{
 .ptext .border.trans{
   background-color:transparent;
 }
+/* footer section */
+footer{
+
+}
+.footer-info{
+  text-align: center;
+  background-color: #555;
+  padding: 18px;
+  font-size: 24px;
+  color: #fff;
+}
+.footer-info a{
+  text-decoration: none;
+  padding: 5px 10px;
+  color: #e6e8e9;
+}
 
 @media(max-width:568px){
   .pimg1, .pimg2, .pimg3{
     background-attachment:scroll;
+  }
+  header {
+    height: 35px;
+  }
+  .menu .nav-bar{
+    font-size: 12px;
+  }
+  .menu .nav-bar .menu-list{
+    margin: 0px 5px;
+  }
+  .ptext{
+    font-size: 12px;
+    letter-spacing: 3px;
+  }
+  .border{
+    padding: 5px;
+    border-radius: 2px;
+  }
+  h2{
+    font-size: 15px;
+  }
+  p{
+    margin: 0px;
+    padding: 0px;
+    text-align: laft;
+  }
+  .footer-info{
+    font-size: 12px;
+    padding: 8px;
   }
 }
